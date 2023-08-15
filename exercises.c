@@ -11,14 +11,14 @@ y su tamaño, y devuelva el valor más grande del arreglo.
 */
 int findMax(int arr[], int size) {
   
-  for(int i=0;i<size;i++){
+  for(int i=0;i<size-1;i++){
     if(arr[i]>arr[i+1]){
       int aux=arr[i];
       arr[i]=arr[i+1];
       arr[i+1]=aux;
     }
   }
-  printf(arr[0]);
+  printf("%i",arr[size-1]);
   
   return 0; }
 

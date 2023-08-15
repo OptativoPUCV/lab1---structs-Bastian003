@@ -3,3 +3,14 @@ Sun 13 Aug 2023 12:02:58 AM UTC:
  tests:  0|7
 total_score: 0/70
 13ff67c
+Tue 15 Aug 2023 08:21:16 PM UTC: 
+ exercises.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘findMax’:
+exercises.c:15:5: error: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Werror=unused-result]
+   15 |     scanf("%i",&arr[i]);
+      |     ^~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+093fc01

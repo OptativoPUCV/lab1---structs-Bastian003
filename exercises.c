@@ -60,7 +60,7 @@ int *filterEvenNumbers(int arr[], int size, int *newSize){
   for(int i=0;i<*newSize;i++){
     printf("%i",nuevo[i]);
   }
-  return nuevo; }
+  return NULL; }
 
 /*
 Ejercicio 4: Fusión de dos Arreglos Ordenados

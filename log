@@ -164,3 +164,14 @@ Tue 15 Aug 2023 09:13:05 PM UTC:
  tests:  0|5
 total_score: 20/70
 75a54a8
+Tue 15 Aug 2023 11:44:08 PM UTC: 
+ exercises.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:54:7: error: value computed is not used [-Werror=unused-value]
+   54 |       *newSize++;
+      |       ^~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+a2acf17

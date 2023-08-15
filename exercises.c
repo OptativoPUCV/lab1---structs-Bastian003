@@ -20,7 +20,7 @@ int findMax(int arr[], int size) {
   }
   printf("%i",arr[0]);
   
-  return 0; }
+  return arr[0]; }
 
 /*
 Ejercicio 2: Invertir un Arreglo

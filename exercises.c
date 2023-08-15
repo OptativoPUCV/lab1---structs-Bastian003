@@ -58,9 +58,9 @@ int *filterEvenNumbers(int arr[], int size, int *newSize){
   }
   nuevo=(int *)malloc(*newSize * sizeof(int));
   for(int i=0;i<*newSize;i++){
-    printf("%i",nuevo[i]);
+    printf("%i ",nuevo[i]);
   }
-  return NULL; }
+  return nuevo; }
 
 /*
 Ejercicio 4: Fusión de dos Arreglos Ordenados

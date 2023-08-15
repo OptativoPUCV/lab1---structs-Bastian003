@@ -198,3 +198,9 @@ exercises.c:61:5: error: ‘*nuevo_23 + _9’ may be used uninitialized [-Werror
 cc1: all warnings being treated as errors
 Compilation failed
 a6b6467
+Tue 15 Aug 2023 11:59:28 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|5
+total_score: 20/70
+7f9b7f3

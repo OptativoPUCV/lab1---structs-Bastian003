@@ -309,3 +309,16 @@ exercises.c:76:6: note: declared here
       |      ^~~~~~~~~~~~~~~~~
 Compilation failed
 051af26
+Wed 16 Aug 2023 12:34:00 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+test.c: In function ‘test_mergeSort’:
+test.c:204:3: error: too few arguments to function ‘mergeSortedArrays’
+  204 |   mergeSortedArrays(arr1, size1, arr2, size2, result);
+      |   ^~~~~~~~~~~~~~~~~
+In file included from test.c:1:
+exercises.c:76:6: note: declared here
+   76 | void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,int result[],int *size3) {
+      |      ^~~~~~~~~~~~~~~~~
+Compilation failed
+a31b657

@@ -89,8 +89,13 @@ void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,int result[]
     
   }
   for(int i=0;i<size3;i++){
-    printf("%i ",result[i]);
+    int aux=result[i];
+    result[i]=result[i+1];
+    result[i+1]=aux;
     
+  }
+  for(int i=0;i<size3;i++){
+    printf("%i ",result[i]);
   }
   
   

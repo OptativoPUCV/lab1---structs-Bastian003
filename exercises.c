@@ -73,26 +73,23 @@ Descripción: Escribe una función que tome dos arreglos
 ordenados y sus tamaños, y luego fusione estos dos
 arreglos en un tercer arreglo también ordenado.
 */
-void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,int *size3) {
+void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,int result[],int *size3) {
   *size3=size1+size2;
-  for(int i=0;i<size1-1;i++){
-    for(int j=0;j<size1-1-i;j++){
-      if(arr1[j]<arr1[j+1]){
-        int aux=arr1[j];
-        arr1[j]=arr1[j+1];
-        arr1[j+1]=aux;
-      }
-    }
+  result=(int *)malloc(*size3 * sizeof(int));
+  int j=0;
+  for(int i=0;i<size1;i++){
+    result[j]=arr1[i];
+    j++;
   }
-  for(int i=0;i<size2-1;i++){
-    for(int j=0;j<size2-1-i;j++){
-      if(arr2[j]<arr2[j+1]){
-        int aux=arr2[j];
-        arr2[j]=arr2[j+1];
-        arr2[j+1]=aux;
-      }
-    }
+  j=0;
+  for(int i=0;i<size2;i++){
+    result[j]=arr2[i];
+    j++;
   }
+  for(int i=0;i<*size3;i++){
+    printf("%i ",result[i]);
+  }
+  
   
 
   

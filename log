@@ -296,3 +296,16 @@ Wed 16 Aug 2023 12:24:51 AM UTC:
  tests:  0|4
 total_score: 30/70
 451632b
+Wed 16 Aug 2023 12:33:08 AM UTC: 
+ exercises.c | 28 ++++++++++++----------------
+ 1 file changed, 12 insertions(+), 16 deletions(-)
+test.c: In function ‘test_mergeSort’:
+test.c:204:3: error: too few arguments to function ‘mergeSortedArrays’
+  204 |   mergeSortedArrays(arr1, size1, arr2, size2, result);
+      |   ^~~~~~~~~~~~~~~~~
+In file included from test.c:1:
+exercises.c:76:6: note: declared here
+   76 | void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,int result[],int *size3) {
+      |      ^~~~~~~~~~~~~~~~~
+Compilation failed
+051af26

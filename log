@@ -290,3 +290,9 @@ Wed 16 Aug 2023 12:09:27 AM UTC:
  tests:  0|4
 total_score: 30/70
 5a130a5
+Wed 16 Aug 2023 12:24:51 AM UTC: 
+ exercises.c | 26 ++++++++++++++++++++++++--
+ 1 file changed, 24 insertions(+), 2 deletions(-)
+ tests:  0|4
+total_score: 30/70
+451632b

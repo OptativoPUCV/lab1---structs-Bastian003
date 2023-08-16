@@ -378,3 +378,14 @@ Wed 16 Aug 2023 12:51:53 AM UTC:
  tests:  0|4
 total_score: 30/70
 c2b012e
+Wed 16 Aug 2023 12:55:51 AM UTC: 
+ exercises.c | 15 ++++++++++-----
+ 1 file changed, 10 insertions(+), 5 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:79:9: error: statement with no effect [-Werror=unused-value]
+   79 |   result[size3];
+      |   ~~~~~~^~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+c889adf

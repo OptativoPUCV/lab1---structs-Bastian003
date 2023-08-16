@@ -52,13 +52,13 @@ int *filterEvenNumbers(int arr[], int size, int *newSize){
   int* nuevo; 
   *newSize=0;
   for(int i=0;i<size;i++){
-    if(i%2==0){
+    if(arr[i]%2==0){
       *newSize+=1;
     }
   }
   nuevo=(int *)malloc(*newSize * sizeof(int));
   for(int i=0;i<*newSize;i++){
-    nuevo[i]=arr[i];
+    printf("%i ",nuevo[i]);
   }
   return nuevo; }
 

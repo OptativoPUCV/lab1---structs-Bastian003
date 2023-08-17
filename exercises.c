@@ -36,9 +36,7 @@ void reverseArray(int arr[], int size) {
     arr[cont]=aux;
     cont-=1;
   }
-  for(int i=0;i<size;i++){
-    printf("%i",arr[i]);
-  }
+  
   
 }
 

@@ -713,3 +713,14 @@ test.c:47:6: error: ‘readIntArray’ defined but not used [-Werror=unused-func
 cc1: all warnings being treated as errors
 Compilation failed
 9c609a5
+Thu 17 Aug 2023 01:02:23 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘checkSorted’:
+exercises.c:113:48: error: expected ‘;’ before ‘}’ token
+  113 | int checkSorted(int arr[], int size) {return -2}
+      |                                                ^
+      |                                                ;
+Compilation failed
+b9afc5a

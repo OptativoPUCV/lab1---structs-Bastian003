@@ -122,9 +122,9 @@ int checkSorted(int arr[], int size) {
     }
   }
   if(desorden>orden && orden==0){
-    return -1;
+    return 0;
   }else if(orden>desorden && desorden==0){
-    return 1;
+    return 0;
   }else{
     return 0;
   }return -3;

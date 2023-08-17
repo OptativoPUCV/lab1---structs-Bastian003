@@ -970,3 +970,9 @@ Thu 17 Aug 2023 01:38:24 AM UTC:
  tests:  0|1
 total_score: 60/70
 ff168c2
+Thu 17 Aug 2023 02:08:16 AM UTC: 
+ exercises.c | 22 +++++++++++++++++++++-
+ 1 file changed, 21 insertions(+), 1 deletion(-)
+ tests:  0|1
+total_score: 60/70
+2cd5328
